@@ -3,52 +3,50 @@
     <oatconfig>
         <policylist>
             <policy name="projectPolicy" desc="">
-                <policyitem type="compatibility" name="LGPLStyleLicense" path=".*" desc="" />
                 <policyitem type="compatibility" name="zlib-acknowledgement" path=".*" desc="" />
-                <policyitem type="compatibility" name="Alexander Chemeris" path="deps.*" desc="" />
-                <policyitem type="compatibility" name="Khronos Group" path="deps.*" desc="" />
+                <policyitem type="compatibility" name="LGPLStyleLicense" path=".*" desc="" />
+                <policyitem type="compatibility" name="ICU" path="deps.*" desc="" />
+                <policyitem type="compatibility" name="Free unknown license detected but not recognized" path=".*" desc="" />
             </policy>
         </policylist>
         <filefilterlist>
             <filefilter name="defaultPolicyFilter"
                 desc="Filters for compatibility,license header policies">
-                <filteritem type="filepath" name="third_party/llvm-10.0/llvm/include/llvm/Support/LICENSE.TXT"
+                <filteritem type="filepath" name="docs/compile.dox"
                     desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Tools/BUILD.bazel"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/bloat/README.chromium"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-10.0/Android.bp"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Headers/BUILD.bazel"
-                    desc="" />
-                <filteritem type="filepath" name="README.OpenSource"
+                <filteritem type="filepath" name="deps/vs2008/stdint.h"
                     desc="" />
                 <filteritem type="filepath" name="deps/nuklear.h"
                     desc="" />
-                <filteritem type="filepath" name="docs/compile.dox"
-                    desc="" />
-                <filteritem type="filepath" name="docs/main.dox"
+                <filteritem type="filepath" name="README.OpenSource"
                     desc="" />
                 </filefilter>
                 <filefilter name="defaultFilter">
                 <filteritem type="filepath" name="README.OpenSource"
                     desc="" />
+                <filteritem type="filepath" name=".*icns"
+                    desc="" />
+                <filteritem type="filepath" name=".*ico"
+                    desc="" />
             </filefilter> 
         </filefilterlist>
         <licensematcherlist>
-            <licensematcher name="Alexander Chemeris" desc="">
+            <licensematcher name="Free unknown license detected but not recognized" desc="">
                 <licensetext name="
-                //  Copyright (c) 2006-2008 Alexander Chemeris
+                GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and
+                Vulkan application development.  It provides a simple, platform-independent API
+                for creating windows, contexts and surfaces, reading input, handling events, etc.
             " desc="" />
-            </licensematcher>.
-            <licensematcher name="Khronos Group" desc="">
+            </licensematcher>
+             <licensematcher name="ICU" desc="">
                 <licensetext name="
-                ** Copyright (c) 2008-2018 The Khronos Group Inc
+                ** Permission is hereby granted, free of charge, to any person obtaining a
+                ** copy of this software and/or associated documentation files (the
+                ** &quot;Materials&quot;), to deal in the Materials without restriction, including
+                ** without limitation the rights to use, copy, modify, merge, publish,
+                ** distribute, sublicense, and/or sell copies of the Materials, and to
+                ** permit persons to whom the Materials are furnished to do so, subject to
+                ** the following conditions:
             " desc="" />
             </licensematcher>
         </licensematcherlist>
