@@ -1,34 +1,11 @@
 [
     {
-        "Name": "glfw",                   # 上游开源软件名全称
-        "License":"zlib-acknowledgement"       # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE.md",      # 许可证所在文件路径
-        "Version Number": "94773111300fee0453844a4c9407af7e880b4df8",
-        "Upstream URL": "https://chromium.googlesource.com/external/github.com/glfw/glfw.git@94773111300fee0453844a4c9407af7e880b4df8",   # 上游软件包发布地址
-        "Description": "第三方软件glfw"           # 开源软件功能描述
-    },
-    {
-        "Name": "glfw",                   # 上游开源软件名全称
-        "License":"LGPLStyleLicense"       # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE.md",      # 许可证所在文件路径
-        "Version Number": "94773111300fee0453844a4c9407af7e880b4df8",
-        "Upstream URL": "https://chromium.googlesource.com/external/github.com/glfw/glfw.git@94773111300fee0453844a4c9407af7e880b4df8",   # 上游软件包发布地址
-        "Description": "第三方软件glfw"           # 开源软件功能描述
-    },
-    {
-        "Name": "glfw",                   # 上游开源软件名全称
-        "License":"ICU"        # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE.md",      # 许可证所在文件路径
-        "Version Number": "94773111300fee0453844a4c9407af7e880b4df8",
-        "Upstream URL": "https://chromium.googlesource.com/external/github.com/glfw/glfw.git@94773111300fee0453844a4c9407af7e880b4df8",   # 上游软件包发布地址
-        "Description": "第三方软件glfw"           # 开源软件功能描述
-    },
-    {
-        "Name": "glfw",                   # 上游开源软件名全称
-        "License":"Free unknown license detected but not recognized"        # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE.md",      # 许可证所在文件路径
-        "Version Number": "94773111300fee0453844a4c9407af7e880b4df8",
-        "Upstream URL": "https://chromium.googlesource.com/external/github.com/glfw/glfw.git@94773111300fee0453844a4c9407af7e880b4df8",   # 上游软件包发布地址
-        "Description": "第三方软件glfw"           # 开源软件功能描述
+        "Name": "glfw",
+	    "License": "Zlib",
+	    "License File": "LICENSE.md",
+	    "Version Number": "94773111300fee0453844a4c9407af7e880b4df8",
+	    "Owner": "huangjiewen2@huawei.com",
+	    "Upstream URL": "https://chromium.googlesource.com/external/github.com/glfw/glfw.git@94773111300fee0453844a4c9407af7e880b4df8",
+	    "Description": "第三方软件glfw"
     }
 ]
