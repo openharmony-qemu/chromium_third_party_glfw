@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "glfw",
+	    "License": "Zlib",
+	    "License File": "LICENSE.md",
+	    "Version Number": "94773111300fee0453844a4c9407af7e880b4df8",
+	    "Owner": "huangjiewen2@huawei.com",
+	    "Upstream URL": "https://chromium.googlesource.com/external/github.com/glfw/glfw.git@94773111300fee0453844a4c9407af7e880b4df8",
+	    "Description": "第三方软件glfw,一个免费，开源和便携式框架的开放式绘图介面应用程序开发"
+    }
+]
